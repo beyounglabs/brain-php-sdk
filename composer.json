@@ -1,0 +1,16 @@
+{
+  "name": "beautybrands/brain-php-sdk",
+  "description": "Brain PHP SDK",
+  "license": "MIT",
+  "keywords": ["laravel", "queue", "queue-manager", "supervisor"],
+  "autoload": {
+    "psr-4": {
+      "Brain\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "predis/predis": "^1.1",
+    "illuminate/console": "^5.5"
+  }
+}
